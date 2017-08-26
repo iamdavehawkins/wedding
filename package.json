@@ -1,0 +1,27 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "wedding_app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dhawkins",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.6.1",
+    "react-responsive": "^1.3.4",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
