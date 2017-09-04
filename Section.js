@@ -5,7 +5,7 @@ const sectionContainerStyle = {
   flexDirection: 'row',
   justifyContent: 'space-around',
   alignItems: 'center',
-  margin: '10px 0 10px 0',
+  margin: '10px 10px',
   backgroundColor: '#CC0C0F'
 }
 
