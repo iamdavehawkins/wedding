@@ -8,7 +8,9 @@ var MediaQuery = require('react-responsive');
 var baseNavStyle = {
   backgroundColor: '#2f4ca3',
   margin: '0px',
-  padding: '0px'
+  padding: '0px',
+  position: 'fixed',
+  width: '100%'
 }
 
 var navStyle = {
