@@ -7,7 +7,7 @@ class Parallax extends React.Component {
       width: '100%',
       margin: '0px 0px 0px 0px',
       // height: '350px',
-      minHeight: '600px',
+      minHeight: '650px',
       backgroundAttachment: 'fixed',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
@@ -16,7 +16,7 @@ class Parallax extends React.Component {
     }
 
     return (
-      <div style={ parallaxDivStyle } />
+      <div className="parallax" style={ parallaxDivStyle } />
     );
   }
 }

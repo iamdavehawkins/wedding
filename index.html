@@ -17,7 +17,7 @@
       <navbar></navbar>
     </div>
     <script src="index.js"></script>
-      <script>
+    <script>
       $('a[href^="#"]').on('click', function(event) {
           var target = $(this.getAttribute('href'));
           if( target.length ) {
@@ -27,6 +27,24 @@
               }, 600);
           }
       });
+    </script>
+    <script>
+      (function(){
+
+        var parallax = document.querySelectorAll(".parallax"),
+            speed = -0.5;
+
+        window.onscroll = function(){
+          for (i = 0; i < parallax.length; i++) {
+            var me = parallax[i],
+                myOffset = me.offsetTop,
+                windowYOffset = window.pageYOffset,
+                elBackgrounPos = "10% " + (windowYOffset * speed + (i * 500)) + "px";
+            me.style.backgroundPosition = elBackgrounPos;
+          }
+        };
+
+      })();
     </script>
   </body>
 </html>
