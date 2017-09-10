@@ -14,8 +14,10 @@ a {
 
 .textFirst {
     order: -1;
+    width: 100%;
 }
 
 .textSecond {
     order: 1;
+    width: 100%;
 }

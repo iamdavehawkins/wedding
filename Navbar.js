@@ -51,10 +51,12 @@ class Navbar extends React.Component {
         <MediaQuery minWidth={1224}>
           <div style={ navStyle }>
             <NavbarItem idlink="ourstory" text="Our Story"/>
-            <NavbarItem idlink="thevenue" text="The Venue"/>
+            <NavbarItem idlink="thewedding" text="The Wedding"/>
+            <NavbarItem idlink="gettingthere" text="Getting There" />          
             <Image height="42" src="http://4.bp.blogspot.com/-QEoJOBBqHl0/USfg7BDoURI/AAAAAAAAAqQ/V-bANSTGe08/s640/MertzMono1.png" />
             <NavbarItem idlink="lodging" text="Lodging"/>
             <NavbarItem idlink="activities" text="Activities"/>
+            <NavbarItem idlink="registry" text="Registry" />
           </div>
         </MediaQuery>
         <MediaQuery maxWidth={1224}>
@@ -64,9 +66,11 @@ class Navbar extends React.Component {
               <button width="100%" onClick={this.burgerToggle} className="fa fa-bars fa-2x"></button>
               <div style={ navStyleResp } className="respLinks">
                 <NavbarItem idlink="ourstory" text="Our Story"/>
-                <NavbarItem idlink="thevenue" text="The Venue"/>
+                <NavbarItem idlink="thewedding" text="The Wedding"/>
+                <NavbarItem idlink="gettingthere" text="Getting There" />
                 <NavbarItem idlink="lodging" text="Lodging"/>
                 <NavbarItem idlink="activities" text="Activities"/>
+                <NavbarItem idlink="registry" text="Registry" />
               </div>
             </div>
           </div>
