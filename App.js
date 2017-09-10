@@ -15,7 +15,7 @@ class App extends React.Component {
       return (
         <div>
           <Navbar />
-          <div style={{  height: '40px' }} />
+          {/* <div style={{  height: '40px' }} /> */}
 
           <MediaQuery minWidth={1224}>
             <Parallax imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/15726227_10208437774801129_7318674557753926724_n.jpg?oh=b2764c9353fb97b11aedf7ad2ede50a8&oe=5A185812" />

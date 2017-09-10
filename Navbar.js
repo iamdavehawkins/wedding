@@ -6,7 +6,7 @@ import Image from './Image.js';
 var MediaQuery = require('react-responsive');
 
 var baseNavStyle = {
-  backgroundColor: '#2f4ca3',
+  backgroundColor: 'rgba(255, 255, 255, .2)',
   margin: '0px',
   padding: '0px',
   position: 'fixed',
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
             <NavbarItem idlink="ourstory" text="Our Story"/>
             <NavbarItem idlink="thewedding" text="The Wedding"/>
             <NavbarItem idlink="gettingthere" text="Getting There" />          
-            <Image height="42" src="http://4.bp.blogspot.com/-QEoJOBBqHl0/USfg7BDoURI/AAAAAAAAAqQ/V-bANSTGe08/s640/MertzMono1.png" />
+            {/* <Image height="42" src="http://4.bp.blogspot.com/-QEoJOBBqHl0/USfg7BDoURI/AAAAAAAAAqQ/V-bANSTGe08/s640/MertzMono1.png" /> */}
             <NavbarItem idlink="lodging" text="Lodging"/>
             <NavbarItem idlink="activities" text="Activities"/>
             <NavbarItem idlink="registry" text="Registry" />
@@ -61,7 +61,7 @@ class Navbar extends React.Component {
         </MediaQuery>
         <MediaQuery maxWidth={1224}>
           <div style={ navStyle }>
-            <Image height="42" src="http://4.bp.blogspot.com/-QEoJOBBqHl0/USfg7BDoURI/AAAAAAAAAqQ/V-bANSTGe08/s640/MertzMono1.png" />
+            {/* <Image height="42" src="http://4.bp.blogspot.com/-QEoJOBBqHl0/USfg7BDoURI/AAAAAAAAAqQ/V-bANSTGe08/s640/MertzMono1.png" /> */}
             <div style={ linkContainer } >
               <button width="100%" onClick={this.burgerToggle} className="fa fa-bars fa-2x"></button>
               <div style={ navStyleResp } className="respLinks">

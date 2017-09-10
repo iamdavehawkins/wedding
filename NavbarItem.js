@@ -6,8 +6,12 @@ var liStyle = {
   listStyle: 'none',
   textAlign: 'center',
   flexGrow: 1,
+  flexBasis: '10%',
   textDecoration: 'none',
-  color: '#000'
+  color: '#000',
+  textShadow: '1px 1px #000',
+  padding: '10px',
+  fontSize: '18px'
 };
 
 class navbarItem extends React.Component {

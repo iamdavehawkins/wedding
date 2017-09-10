@@ -17,7 +17,9 @@ const imageStyle = {
 
 const titleStyle = {
   textAlign: 'center',
-  color: '#ff7f50'
+  color: '#ff7f50',
+  fontSize: '24px',
+  textShadow: '1px 1px #000'
 }
 
 const dummyDivStyle = {
