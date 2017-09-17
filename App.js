@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar.js';
 import Section from './Section.js';
 import Parallax from './Parallax.js';
+import Footer from './Footer.js';
 
 var MediaQuery = require('react-responsive');
 
@@ -103,6 +104,10 @@ class App extends React.Component {
               </ul>
             </p>
           </Section>
+
+          <Footer>
+            Designed with &lt;3 by David Hawkins
+          </Footer>
         </div>
       );
    }
