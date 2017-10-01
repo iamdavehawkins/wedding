@@ -155,7 +155,7 @@ class App extends React.Component {
           </MediaQuery>
 
           <Footer>
-            Designed with &lt;3 by David Hawkins
+            Designed & coded with &lt;3 by David Hawkins
           </Footer>
         </div>
       );
