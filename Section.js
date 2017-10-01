@@ -45,7 +45,7 @@ class Section extends React.Component {
           { this.props.children }
         </div>
         <div style={ imageStyle }>
-          <img width="350px" height="350px" src={ this.props.imgSrc } />
+          <img width="400px" height="400px" src={ this.props.imgSrc } />
         </div>
       </div>
     );

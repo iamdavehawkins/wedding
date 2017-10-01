@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp index.html ./build && cp base.css ./build && webpack",
+    "build": "cp index.html ./build && cp base.css ./build && cp -r ./img/ ./build/img/ && webpack",
     "deploy": "aws s3 sync ./build s3://www.chelsearansom.com"
   },
   "author": "dhawkins",

@@ -7,7 +7,7 @@ class Parallax extends React.Component {
       width: '100%',
       margin: '0px 0px 0px 0px',
       // height: '350px',
-      minHeight: '650px',
+      minHeight: '700px',
       backgroundAttachment: 'fixed',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',

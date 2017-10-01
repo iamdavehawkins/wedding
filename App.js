@@ -22,26 +22,42 @@ class App extends React.Component {
             <Parallax imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/15726227_10208437774801129_7318674557753926724_n.jpg?oh=b2764c9353fb97b11aedf7ad2ede50a8&oe=5A185812" />
           </MediaQuery>
 
-          <Section textFirst scrollId="ourstory" title="Our Story" imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/15781049_10211565299828651_365514324346529234_n.jpg?oh=36b217aa41f8e03b8681b046d9904e7a&oe=5A161E68">
+          <Section textFirst scrollId="ourstory" title="Our Story" imgSrc="./img/IMG_6604_brightened.JPG">
             <p style={ textStyle }>
-              We met at the EPA and dated in (poorly executed) secrecy.
+              The two of us met while working at the EPA in Ann Arbor.
+              Immediately we had a lot in common, a passion for outdoor activities, belief in a sustainable future for our planet,
+              and sharing good beer with friends. We tried to keep our relationship discrete at work. Doing silly things like staggering our
+              departures from home and the office. Not making googly eyes at each other in the few meetings we shared. But we failed miserably.
+              Chelsea would stop by Dave's desk multiple times per day, we'd eat lunch together pretty much every day. And when people asked
+              us what we did the past weekend... or how our (coincidentally timed) vacations were... the answers were suspiciously similar.
+            </p>
+            <p style={ textStyle }>
+              In 2016, we both found our dream jobs. Chelsea with the environmental and wastewater engineering firm CH2M, and Dave with Tesla.
+              We split ways, Chelsea to Denver, and Dave to the Silicon Valley. Neither of us could in good conscience stop the other from pursuing
+              these amazing opportunities so well-aligned with our passions. This was a tough year, puncuated by monthly flights back and forth,
+              and continuing our adventures in Colorado and California.
+            </p>
+            <p style={ textStyle }>
+              In late 2016 Chelsea discovered she could transfer within her company to the Bay Area, and in December, Dave (finally) proposed.
+              In early 2017, we roadtripped from Denver to Oakland, and settled in our new home.
             </p>
           </Section>
 
           <MediaQuery minWidth={1224}>
-            <Parallax imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/15726227_10208437774801129_7318674557753926724_n.jpg?oh=b2764c9353fb97b11aedf7ad2ede50a8&oe=5A185812" />
+            <Parallax imgSrc="./img/DSC_0057.JPG" />
           </MediaQuery>
 
           <Section scrollId="thewedding" title="The Wedding" imgSrc="https://i.pinimg.com/originals/01/58/3c/01583c78fe06951327d6f22886436d57.jpg">
             <p style={ textStyle }>
               We're getting married at <a href="#">Mill Creek Barn</a> in Watervliet, MI
+              <br />
+              68770 80th Ave, Watervliet, MI 49098
             </p>
             <p style={ textStyle }>
               <strong>Dress Code:</strong> Dressy Casual Barn-wedding.<br />
-              The wedding is outside (flats might be a good idea)
             </p>
             <p style={ textStyle }>
-              <strong>Schedule of Events</strong>
+              <strong>Schedule of Events (tentative)</strong><br />
               <ul>
                 <li>4:00 - Ceremony Begins</li>
                 <li>5:30 - Dinner</li>
@@ -50,39 +66,68 @@ class App extends React.Component {
                 <li>11:00 - After Party</li>
               </ul>
             </p>
+            <p style={ textStyle }>
+              <strong>Important considerations</strong><br />
+              <ul>
+                <li>The wedding is outside (flats might be a good idea)</li>
+                <li>Cell reception is either poor or non-existent at the venue</li>
+              </ul>
+            </p>
           </Section>
 
           <MediaQuery minWidth={1224}>
-            <Parallax imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/13339669_10106579977229703_917825051353081153_n.jpg?oh=6f85a545084606ba922814cb152dd53e&oe=5A184202" />
+            <Parallax imgSrc="./img/13339669_10106579977229703_917825051353081153_n.jpg" />
           </MediaQuery>
 
-          <Section textFirst scrollId="gettingthere" title="Getting There" imgSrc="https://igx.4sqi.net/img/general/600x600/N9ykAENjGwzKOjaDb7reJdIcfQ_kG2y1zOF7Tpk-DhU.jpg">
+          <Section textFirst scrollId="gettingthere" title="Getting There" imgSrc="./img/IMG_5075.JPG">
             <p style={ textStyle }>
-              Flying
+              <strong>Flying</strong><br />
+              You can fly into either Chicago Airports (O'Hare/Midway) or Detroit (DTW). Both are about 2.5 hours from the venue.
             </p>
             <p style={ textStyle }>
-              Driving
+              <strong>Driving</strong><br />
+              There is plenty of parking at the venue. However, if you choose not to drive, we will be providing shuttles to
+              xx and xx.
             </p>
             <p style={ textStyle }>
-              Swimming
+              <strong>Shuttle Schedule</strong><br />
+              <ul>
+                <li>x:xx - Depart xx</li>
+                <li>x:xx - Depart venue</li>
+              </ul>
             </p>
           </Section>
 
           <MediaQuery minWidth={1224}>
-            <Parallax imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1924127_10102476209637900_4439857778207234214_n.jpg?oh=3aa6552c632849a49e12cbd618a99fe7&oe=5A5DDA51" />
+            <Parallax imgSrc="./img/DSC_0072.JPG" />
           </MediaQuery>
 
           <Section scrollId="lodging" title="Lodging" imgSrc="https://igx.4sqi.net/img/general/600x600/N9ykAENjGwzKOjaDb7reJdIcfQ_kG2y1zOF7Tpk-DhU.jpg">
             <p style={ textStyle }>
-              There are many options in west Michigan. Unfortunately, this is high tourism season for Michigan, so we suggest booking early!
+              While there are many options in west Michigan, this is high tourism season, so we suggest booking as early as you can.
+            </p>
+            <p style={ textStyle }>
+              <strong>We have reserved blocks at the following locations:</strong><br />
+              <ul>
+                <li>
+                  <a href="http://www.marriott.com/hotels/travel/sbnwl-fairfield-inn-and-suites-watervliet-st-joseph/">
+                    Fairfield Inn & Suites
+                  </a>
+                  - around $249/nt - Call xxx-xxxx and mention "Ransom-Hawkins Wedding"
+                </li>
+                <p>
+                  This hotel has a huge water park and may be a good option for those with young children.
+                </p>
+                <li>Cabins</li>
+              </ul>
             </p>
           </Section>
 
           <MediaQuery minWidth={1224}>
-            <Parallax imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1924127_10102476209637900_4439857778207234214_n.jpg?oh=3aa6552c632849a49e12cbd618a99fe7&oe=5A5DDA51" />
+            <Parallax imgSrc="./img/GOPR1304.JPG" />
           </MediaQuery>
 
-          <Section textFirst scrollId="activities" title="Activities" imgSrc="https://i.pinimg.com/736x/14/eb/1e/14eb1ea7b1601d0c6a04df2ab4e4cc62--beach-stuff-michigan-usa.jpg">
+          <Section textFirst scrollId="activities" title="Activities" imgSrc="./img/IMG_5624_square.JPG">
             <p style={ textStyle }>
               Lots of things to do:
               <ul>
@@ -94,16 +139,20 @@ class App extends React.Component {
           </Section>
 
           <MediaQuery minWidth={1224}>
-            <Parallax imgSrc="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1924127_10102476209637900_4439857778207234214_n.jpg?oh=3aa6552c632849a49e12cbd618a99fe7&oe=5A5DDA51" />
+            <Parallax imgSrc="./img/IMG_4530.JPG" />
           </MediaQuery>
 
-          <Section scrollId="registry" title="Registry" imgSrc="https://i.pinimg.com/736x/14/eb/1e/14eb1ea7b1601d0c6a04df2ab4e4cc62--beach-stuff-michigan-usa.jpg">
+          <Section scrollId="registry" title="Registry" imgSrc="./img/IMG_3937_square.jpg">
             <p style={ textStyle }>
               <ul>
-                <li><a href="#">Amazon</a></li>
+                <li><a href="#">We don't have this figured out yet.</a></li>
               </ul>
             </p>
           </Section>
+
+          <MediaQuery minWidth={1224}>
+            <Parallax imgSrc="./img/IMG_7401.JPG" />
+          </MediaQuery>
 
           <Footer>
             Designed with &lt;3 by David Hawkins
