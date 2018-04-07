@@ -53,7 +53,7 @@ class App extends React.Component {
           <Parallax imgSrc="./img/DSC_0057.JPG" />
         </MediaQuery>
 
-        <Section scrollId="thewedding" title="The Wedding" imgSrc="https://i.pinimg.com/originals/01/58/3c/01583c78fe06951327d6f22886436d57.jpg">
+        <Section scrollId="thewedding" title="The Wedding - 7/14/18" imgSrc="https://i.pinimg.com/originals/01/58/3c/01583c78fe06951327d6f22886436d57.jpg">
           <p style={textStyle}>
             We're getting married at <a href="https://www.millcreekwilde.com/">Mill Creek Barn</a>
               <br />
