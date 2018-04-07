@@ -28,7 +28,7 @@ class App extends React.Component {
             Immediately we had a lot in common: a passion for outdoor activities, belief in a sustainable future for 
             our planet, and sharing good beer with friends. We tried to keep our relationship a secret at work for a 
             year, doing silly things like staggering our departures from happy hour and not making googly eyes at each 
-            other in shared meetings. We failed miserably. While camping one weekend in the Red River Gorge with a 
+            other in shared meetings. We failed miserably. During a climbing trip to the Red River Gorge, KY with a 
             friend from work, Cullen’s wife Carmen said, “Chelsea where's your tent?” Chelsea pointed to 
             a solitary tent on a hill, “Dave, where's <i>your</i> tent?” and Dave slowly lifted his arm in the same direction. 
             The secret was out. Meanwhile, back at work, Chelsea, impressed by Dave’s patience (and good looks), asked him to train her in Python,
@@ -39,7 +39,7 @@ class App extends React.Component {
             </p>
           <p style={textStyle}>
             In 2016, we both found our dream jobs. Chelsea with the environmental and wastewater engineering firm CH2M, and Dave with Tesla.
-              We split ways, Chelsea to Denver, and Dave to the Silicon Valley. Neither of us could in good conscience stop the other from pursuing
+              We split ways, Chelsea to Denver, and Dave to the Bay Area. Neither of us could in good conscience stop the other from pursuing
               these amazing opportunities so well-aligned with our passions. This was a tough year, puncuated by monthly flights to visit,
               and more adventures in Colorado and California.
             </p>
