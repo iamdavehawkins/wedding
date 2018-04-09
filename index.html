@@ -32,14 +32,14 @@
       (function(){
 
         var parallax = document.querySelectorAll(".parallax"),
-            speed = -0.5;
+            speed = -0.45;
 
         window.onscroll = function(){
           for (i = 1; i < parallax.length; i++) {
             var me = parallax[i],
                 myOffset = me.offsetTop,
                 windowYOffset = window.pageYOffset,
-                elBackgrounPos = "10% " + (windowYOffset * speed + (i * 500)) + "px";
+                elBackgrounPos = (windowYOffset * speed + (i * 550)) + "px";
             me.style.backgroundPosition = elBackgrounPos;
           }
         };

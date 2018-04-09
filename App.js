@@ -128,6 +128,7 @@ class App extends React.Component {
               <h3><a href="http://www.sandcastlescottages.com">Sand Castle Cottages</a></h3>
                 <ul>
                   <li>Cabins of various sizes and prices</li>
+                  <li>Two night minimum</li>
                   <li>15 minute walk to the Sweet Cherry Resorts</li>
                   <li>Arrange through us, please email us at <a href="mailto:hawkinsransom18@gmail.com?Subject=Sand%20Castle%20Cottages">hawkins4ransom@gmail.com</a> with your preferred cottage</li>
                 </ul>
