@@ -129,7 +129,7 @@ class App extends React.Component {
                 <ul>
                   <li>Cabins of various sizes and prices</li>
                   <li>Two night minimum</li>
-                  <li>15 minute walk to the Sweet Cherry Resorts</li>
+                  {/* <li>15 minute walk to the Sweet Cherry Resorts</li> */}
                   <li>Arrange through us, please email <a href="mailto:chelsea.ransom@gmail.com?Subject=Sand%20Castle%20Cottages">Chelsea</a> or <a href="mailto:iamdavehawkins@gmail.com?Subject=Sand%20Castle%20Cottages">Dave</a> with your preferred cottage</li>
                 </ul>
               <h3>If you prefer, there are other nearby hotels that we recommend, but couldn't get blocks at.</h3>
@@ -171,7 +171,8 @@ class App extends React.Component {
         <Section scrollId="registry" title="Registry" imgSrc="./img/IMG_3937_square.jpg">
           <p style={textStyle}>
             <ul>
-              <li>We have a registry at <a href="https://www.amazon.com/wedding/david-hawkins-chelsea-ransom-watervliet-july-2018/registry/3EYKX5LKGFN87">Amazon</a></li>
+              Registry information coming soon!
+              {/* <li>We have a registry at <a href="https://www.amazon.com/wedding/david-hawkins-chelsea-ransom-watervliet-july-2018/registry/3EYKX5LKGFN87">Amazon</a></li> */}
             </ul>
           </p>
         </Section>
