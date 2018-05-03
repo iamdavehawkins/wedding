@@ -55,7 +55,7 @@ class Navbar extends React.Component {
             <NavbarItem idlink="gettingthere" text="Getting There" />          
             {/* <Image height="42" src="http://4.bp.blogspot.com/-QEoJOBBqHl0/USfg7BDoURI/AAAAAAAAAqQ/V-bANSTGe08/s640/MertzMono1.png" /> */}
             <NavbarItem idlink="lodging" text="Lodging"/>
-            <NavbarItem idlink="activities" text="Activities"/>
+            <NavbarItem idlink="activities" text="Activities & Map"/>
             <NavbarItem idlink="registry" text="Registry" />
           </div>
         </MediaQuery>
@@ -69,7 +69,7 @@ class Navbar extends React.Component {
                 <NavbarItem idlink="thewedding" text="The Wedding"/>
                 <NavbarItem idlink="gettingthere" text="Getting There" />
                 <NavbarItem idlink="lodging" text="Lodging"/>
-                <NavbarItem idlink="activities" text="Activities"/>
+                <NavbarItem idlink="activities" text="Activities & Map"/>
                 <NavbarItem idlink="registry" text="Registry" />
               </div>
             </div>

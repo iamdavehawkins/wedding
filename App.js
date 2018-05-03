@@ -148,7 +148,7 @@ class App extends React.Component {
           <Parallax imgSrc="./img/GOPR1304.JPG" />
         </MediaQuery>
 
-        <Section textFirst scrollId="activities" title="Activities" imgSrc="./img/IMG_5624_square.JPG">
+        <Section textFirst scrollId="activities" title="Activities & Map" imgSrc="./img/IMG_5624_square.JPG">
           <p style={textStyle}>
             <h3>We decided to get married in western Michigan because it's a beautiful place and there is lots to do!</h3>
             <ul>
@@ -161,6 +161,7 @@ class App extends React.Component {
                   <li>Bells Brewery - Kalamazoo</li>
                 </ul>
             </ul>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1DHYJVag9LwAzLL2_y9a0UPTe0MFzg_qq" width="640" height="480"></iframe>
           </p>
         </Section>
 
