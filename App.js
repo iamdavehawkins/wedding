@@ -101,6 +101,9 @@ class App extends React.Component {
             </p>
           <p style={textStyle}>
             <h3><strong>Shuttle Schedule</strong></h3>
+            <p>
+              Shuttles will <b>only</b> be running from Sand Castle, Sweet Cherry, and the Fairfield Inn & Suites.
+            </p>
             <ul>
               <li>x:xx - Depart xx</li>
               <li>x:xx - Depart venue</li>
@@ -132,7 +135,8 @@ class App extends React.Component {
                   {/* <li>15 minute walk to the Sweet Cherry Resorts</li> */}
                   <li>Arrange through us, please email <a href="mailto:chelsea.ransom@gmail.com?Subject=Sand%20Castle%20Cottages">Chelsea</a> or <a href="mailto:iamdavehawkins@gmail.com?Subject=Sand%20Castle%20Cottages">Dave</a> with your preferred cottage</li>
                 </ul>
-              <h3>If you prefer, there are other nearby hotels that we recommend, but couldn't get blocks at.</h3>
+              <h3>If you prefer, there are other nearby hotels that we recommend, but couldn't get blocks at.
+                  Note that no shuttles will be running to these locations.</h3>
                 <ul>
                   <li>SpringHill Suites Benton Harbor St. Joseph</li>
                   <li>Best Western Benton Harbor St. Joseph</li>
@@ -172,8 +176,20 @@ class App extends React.Component {
         <Section scrollId="registry" title="Registry" imgSrc="./img/IMG_3937_square.jpg">
           <p style={textStyle}>
             <ul>
-              Registry information coming soon!
-              {/* <li>We have a registry at <a href="https://www.amazon.com/wedding/david-hawkins-chelsea-ransom-watervliet-july-2018/registry/3EYKX5LKGFN87">Amazon</a></li> */}
+              <p>
+                Having combined two independent households into one (twice!), we are very fortunate to live together in a home full of many things. The two of us share a love of experiences and would feel profound gratefulness for any contributions to our Patagonia honeymoon fund or our (King + Puppy) bed fund.
+              </p>
+              <p>
+                These can be given in cash or check at our wedding or via Venmo to @iamdavehawkins.
+              </p>
+              <p>
+                If you feel like you'd like to buy us something, we've thought of a few things that would cheer up our home and encourage some of our favorite hobbies and vices 🙂 <a href="https://www.amazon.com/wedding/david-hawkins-chelsea-ransom-watervliet-july-2018/registry/3EYKX5LKGFN87">These are listed on our Amazon registry</a>. Please be sure to have any physical items shipped to our Oakland address! Thank you!!
+              </p>
+              <p>
+                Chelsea Ransom & Dave Hawkins<br />
+                308 Jackson St. Apt 307<br />
+                Oakland, CA 94607
+              </p>
             </ul>
           </p>
         </Section>
