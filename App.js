@@ -76,10 +76,9 @@ class App extends React.Component {
           <p style={textStyle}>
             <h3><strong>Important considerations</strong></h3>
             <ul>
-              <li>We strongly encourage you leave your children at home and enjoy an evening kid-free. If this is not an option for you, please contact Dave or Chelsea so we can try to help out.</li>
+              <li>We love your kids but thought you might like a night off. Adults only please! If this is not an option for you, please contact Dave or Chelsea so we can help make arrangements.</li>
               <li>The wedding is outside, so ladies your heels may sink into the grass.</li>
-              <li>Cell reception is poor or non-existent at the venue, but there is a land line we can use (number TBD).
-</li>
+              <li>Cell reception is poor or non-existent at the venue, but there is a land line we can use (number TBD).</li>
             </ul>
           </p>
         </Section>
@@ -118,6 +117,12 @@ class App extends React.Component {
         <Section scrollId="lodging" title="Lodging" imgSrc="./img/Ransom_029.jpg">
           <p style={textStyle}>
             <ul>
+              <p>
+              NOTE: (6/14) The hotel wedding blocks have expired.<br/>
+              However, there are still a few A-frames available at Sweet Cherry Resorts, you can book at (269) 849-1233.<br/>
+              Sand castle cottages also has availability and direct booking through their AirBnb listings. (<a href="https://www.sandcastlescottages.com/cottages---rates">Link</a>)<br/>
+              Hotel rooms can still be booked at Fairfield Inn and Suites outside the wedding block.
+              </p>
               <h3><a href="http://www.marriott.com/hotels/travel/sbnwl-fairfield-inn-and-suites-watervliet-st.-joseph/">Fairfield Inn & Suites</a></h3>
               Call 269-463-7946 and mention "Ransom-Hawkins Wedding". This hotel also has a water park if you want to bring kids and leave them behind with family/babysitter at the hotel.
               <h3><a href="https://www.facebook.com/Sweet-Cherry-Resort-113473335352259/">Sweet Cherry Resorts</a></h3>
