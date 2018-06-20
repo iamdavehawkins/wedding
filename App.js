@@ -53,7 +53,7 @@ class App extends React.Component {
           <Parallax imgSrc="./img/DSC_0057.JPG" />
         </MediaQuery>
 
-        <Section scrollId="thewedding" title="The Wedding - 7/14/18" imgSrc="https://i.pinimg.com/originals/01/58/3c/01583c78fe06951327d6f22886436d57.jpg">
+        <Section scrollId="thewedding" title="The Wedding Weekend - 7/14/18" imgSrc="https://i.pinimg.com/originals/01/58/3c/01583c78fe06951327d6f22886436d57.jpg">
           <p style={textStyle}>
             We're getting married at <a href="https://www.millcreekwilde.com/">Mill Creek Barn</a>
               <br />
@@ -61,16 +61,21 @@ class App extends React.Component {
             Watervliet, MI 49098
             </p>
           <p style={textStyle}>
-            <strong>Dress Code:</strong> Dressy Casual Barn-wedding.<br />
+            <h3>Dress Code</h3> Dressy Casual Barn-wedding.<br />
           </p>
           <p style={textStyle}>
-            <h3><strong>Schedule of Events (tentative)</strong></h3>
+            <h3><strong>7/13 - The Day Before the Big Day</strong></h3>
+            {/* We'll be eating dinner at <a href="http://liverybrew.com/">The Livery Brewing Company</a> in Benton Harbor. Please come and join us! */}
+          </p>
+          <p style={textStyle}>
+            <h3><strong>7/14 - The Big Day</strong></h3>
             <ul>
               <li>3:30 - Ceremony Begins</li>
-              <li>TBD - Cocktail Hour</li>
-              <li>TBD - Dinner</li>
-              <li>TBD - Dancing</li>
+              <li>4:15 - Drinks and Lawn Games</li>
+              <li>6:00 - Dinner</li>
+              <li>7:30 - Dancing</li>
               <li>11:00 - Music stops</li>
+              <li>After party at Sweet Cherry</li>
             </ul>
           </p>
           <p style={textStyle}>
@@ -104,8 +109,15 @@ class App extends React.Component {
               Shuttles will <b>only</b> be running from Sand Castle, Sweet Cherry, and the Fairfield Inn & Suites.
             </p>
             <ul>
-              <li>x:xx - Depart xx</li>
-              <li>x:xx - Depart venue</li>
+              <li>2:45pm - Shuttle Departs Sweet Cherry Resorts</li>
+              <li>3:00pm - Shuttle Departs Sand Castle Cottages</li>
+              <li>3:10pm - Shuttle Departs Fairfield Inn & Suites</li>
+              <p>Wedding & Reception</p>
+              <li>8:00pm - Shuttle Departs for Sweet Cherry, Sand Castle, and Fairfield</li>
+              <li>9:00pm - Shuttle Departs for Sweet Cherry, Sand Castle, and Fairfield</li>
+              <li>10:00pm - Shuttle Departs for Sweet Cherry, Sand Castle, and Fairfield</li>
+              <li>11:00pm - Final shuttle to Fairfield Inn & Suites</li>
+              <li>11:30pm - Final shuttle to Sweet Cherry and Sand Castle</li>
             </ul>
           </p>
         </Section>
