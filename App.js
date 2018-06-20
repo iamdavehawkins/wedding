@@ -65,7 +65,7 @@ class App extends React.Component {
           </p>
           <p style={textStyle}>
             <h3><strong>7/13 - The Day Before the Big Day</strong></h3>
-            {/* We'll be eating dinner at <a href="http://liverybrew.com/">The Livery Brewing Company</a> in Benton Harbor. Please come and join us! */}
+            We'll be eating dinner and grabbing some brews at <a href="http://liverybrew.com/">The Livery Brewing Company</a> in Benton Harbor. Please come and join us!
           </p>
           <p style={textStyle}>
             <h3><strong>7/14 - The Big Day</strong></h3>
@@ -75,7 +75,7 @@ class App extends React.Component {
               <li>6:00 - Dinner</li>
               <li>7:30 - Dancing</li>
               <li>11:00 - Music stops</li>
-              <li>After party at Sweet Cherry</li>
+              <li>After party at Sweet Cherry Resorts</li>
             </ul>
           </p>
           <p style={textStyle}>
