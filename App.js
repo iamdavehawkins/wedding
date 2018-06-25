@@ -65,7 +65,7 @@ class App extends React.Component {
           </p>
           <p style={textStyle}>
             <h3><strong>7/13 - The Day Before the Big Day</strong></h3>
-            We'll be eating dinner and grabbing some brews at <a href="http://liverybrew.com/">The Livery Brewing Company</a> in Benton Harbor. Please come and join us!
+            We'll be grabbing dinner and drinks at <a href="http://liverybrew.com/">The Livery Brewing Company</a> in Benton Harbor sometime around 5 or 6. Feel free to stop by and say hi.
           </p>
           <p style={textStyle}>
             <h3><strong>7/14 - The Big Day</strong></h3>
