@@ -110,8 +110,8 @@ class App extends React.Component {
             </p>
             <ul>
               <li>2:45pm - Shuttle Departs Sweet Cherry Resorts</li>
-              <li>3:00pm - Shuttle Departs Sand Castle Cottages</li>
-              <li>3:10pm - Shuttle Departs Fairfield Inn & Suites</li>
+              <li>2:45pm - Shuttle Departs Sand Castle Cottages</li>
+              <li>3:00pm - Shuttle Departs Fairfield Inn & Suites</li>
               <p>Wedding & Reception</p>
               <li>8:00pm - Shuttle Departs for Sweet Cherry, Sand Castle, and Fairfield</li>
               <li>9:00pm - Shuttle Departs for Sweet Cherry, Sand Castle, and Fairfield</li>
