@@ -83,7 +83,7 @@ class App extends React.Component {
             <ul>
               <li>We love your kids but thought you might like a night off. Adults only please! If this is not an option for you, please contact Dave or Chelsea so we can help make arrangements.</li>
               <li>The wedding is outside, so ladies your heels may sink into the grass.</li>
-              <li>Cell reception is poor or non-existent at the venue, but there is a land line we can use (number TBD).</li>
+              <li>Cell reception is poor or non-existent at the venue, but there is an emergency land line. (269) 463-3037.</li>
             </ul>
           </p>
         </Section>
